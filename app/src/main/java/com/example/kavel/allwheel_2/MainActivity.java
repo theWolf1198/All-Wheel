@@ -31,17 +31,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         UserAuth = FirebaseAuth.getInstance();
-        List<AuthUI.IdpConfig> providers = Arrays.asList(
-                new AuthUI.IdpConfig.PhoneBuilder().build(),
-                new AuthUI.IdpConfig.GoogleBuilder().build());
-
-        startActivityForResult(
-                AuthUI.getInstance()
-                        .createSignInIntentBuilder()
-                        .setIsSmartLockEnabled(false)
-                        .setAvailableProviders(providers)
-                        .build(),
-                RC_SIGNIN);
 
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -77,9 +66,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 // Successfully signed in
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                String name = user.getDisplayName();
-                Toast.makeText(MainActivity.this, "Signed in successfully. Mr. " + name, Toast.LENGTH_SHORT).show();
-                // ...
+
             } else {
 
                 if (response == null) {
