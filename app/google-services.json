@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "103567031206",
+    "firebase_url": "https://allwheel2-f62b1.firebaseio.com",
+    "project_id": "allwheel2-f62b1",
+    "storage_bucket": "allwheel2-f62b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103567031206:android:219c84056ef99426",
+        "android_client_info": {
+          "package_name": "com.example.kavel.allwheel_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103567031206-07219eo2cqgtc5dhqss5rb9l2p4egftr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kavel.allwheel_2",
+            "certificate_hash": "9cc0cc9d0eacc52f2eaf1bc923a9590bb80475a4"
+          }
+        },
+        {
+          "client_id": "103567031206-ftvmk6lrkljop0hok7u7d9e6gjj5f2la.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "103567031206-ftvmk6lrkljop0hok7u7d9e6gjj5f2la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPBpZn69pghkB3cocQJ65-RgSpbxri8Wo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103567031206-ftvmk6lrkljop0hok7u7d9e6gjj5f2la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
